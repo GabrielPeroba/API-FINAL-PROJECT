@@ -35,27 +35,35 @@ API project for a restaurant including the major topics  of the course.
 
 
 1. **Clone the repository:**
-   ```bash
+   
    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
    cd YOUR_REPO_NAME
 
-2. **Set up a virtual environment:**
+3. **Set up a virtual environment:**
+   
    python -m venv venv
+   
    On Windows:
+   
   .\venv\Scripts\activate
    On Mac/Linux:
+   
   source venv/bin/activate
 
-3. **Install dependencies:**
+5. **Install dependencies:**
+   
   pip install django djangorestframework djoser
 
-4. **Initialize the database:**
+7. **Initialize the database:**
+   
   python manage.py makemigrations
   python manage.py migrate
 
-5. **Create an Admin (Superuser)::**
+9. **Create an Admin (Superuser)::**
+    
   python manage.py createsuperuser
 
-7. **Run the server:**
+11. **Run the server:**
+    
   python manage.py runserver
    
