@@ -41,9 +41,9 @@ API project for a restaurant including the major topics  of the course.
 
 2. **Set up a virtual environment:**
    python -m venv venv
-  # On Windows:
+   On Windows:
   .\venv\Scripts\activate
-  # On Mac/Linux:
+   On Mac/Linux:
   source venv/bin/activate
 
 3. **Install dependencies:**
