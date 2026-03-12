@@ -46,6 +46,7 @@ API project for a restaurant including the major topics  of the course.
    On Windows:
    
   .\venv\Scripts\activate
+  
    On Mac/Linux:
    
   source venv/bin/activate
